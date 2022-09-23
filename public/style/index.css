@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    user-select: none;
+    user-zoom: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+/* ===================== NAVBAR STYLE ======================= */
+.navbar{
+    font-weight: bold;
+    background-color: rgb(252, 246, 239);
+}
+
+/* ==========================================  LOG_PAGE STYLE ============================================ */
+#landing_page{
+    height: 90.5vh;
+    background-image: url(../img/bg.1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#landing_cover{
+    height: 90.5vh;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.landing_text{
+    height: fit-content;
+    width: 50%;
+    margin: 10% 50% 0px;
+    text-align: center;
+}
+@media only screen and (max-width: 576px) {
+    .landing_text{
+        width: 100%;
+        margin: 55% 0%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .landing_text{
+        width: 100%;
+        margin: 55% 0%;
+        text-align: center;
+    }
+}
+.landing_text a{
+    text-decoration: none;
+}
+.landing_text_header{
+    font-size: 3rem;
+    width: fit-content;
+    background-color: aliceblue;
+    /* font-weight: bold; */
+    /* color: aliceblue; */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+}
+@media only screen and (max-width: 576px) {
+    .landing_text_header{
+        font-size: 1.5rem;
+        width: fit-content;
+        margin-left: 16.5%;
+    }
+}
+.landing_text_center{
+    width: fit-content;
+    background-color: aliceblue;
+    font-size: 3rem;
+    margin-left: -10%;
+    /* font-weight: bold; */
+    /* color: aliceblue; */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin-top: 1.5%;
+    /* -ms-transform: rotate(-10deg); 
+    transform: rotate(-10deg); */
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+}
+@media only screen and (max-width: 576px) {
+    .landing_text_center{
+        font-size: 1.5rem;
+        margin-left: 36.5%;
+        
+        width: fit-content;
+
+    }
+}
+.landing_text_bottom{
+    width: fit-content;
+    background-color: aliceblue;
+    font-size: 3rem;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    /* font-weight: bold; */
+    /* color: aliceblue; */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    /* -ms-transform: rotate(5deg); 
+    transform: rotate(5deg); */
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+}
+@media only screen and (max-width: 576px) {
+    .landing_text_bottom{
+        font-size: 1.5rem;
+        margin-left: 49%;
+        width: fit-content;
+        /* margin-top: 13%; */
+    }
+}
+.button{
+    /* background-color: #fff; */
+    background-color: rgb(252, 246, 239);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1rem;
+    margin-left: 35%;
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+}
+@media only screen and (max-width: 576px) {
+    .button{
+        font-size: 1rem;
+        margin-left: 35%;
+        margin-top: 25%;
+    }
+}
+
+.menu_icon{
+    width: 10%;
+    height: 30px;
+    /* background-color: #fff; */
+    background-image: url(../img/arrow.png);
+    margin-top: 3%;
+    padding-right: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+}
+@media only screen and (max-width: 576px) {
+    .menu_icon{
+        margin-top: -25%;
+        /* background-color: black; */
+
+    }
+}
+.offcanvas{
+    height: fit-content;
+    width: fit-content;
+    border-top-right-radius: 15px;
+}
+/* ========================================= KEY POINT STYLE ============== */
+.keypoint_page{
+    height: fit-content;
+    margin: 4% 15%;
+}
+@media only screen and (max-width: 576px) {
+    .keypoint_page{
+        margin: 4%  0% 70% 0px;
+    }
+}
+.keypoint{
+    height: fit-content;
+    text-align: center;
+    /* margin: 2% 0px; */
+}
+@media only screen and (max-width: 576px) {
+    .keypoint{
+        margin: 2% 0px;
+    }
+}
+.affordable{
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+}
+@media only screen and (max-width: 576px) {
+    .affordable{
+        width: 100%;
+    }
+}
+.affordable_icon{
+    height: 70px;
+    background-image: url(../img/affordable.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    border-radius: 100%;
+    /* margin: auto; */
+    align-content: space-between;
+}
+.keypoint_header{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.keypoint_text{
+    /* padding: 0px 5%; */
+    width: 100%;
+}
+.delivery_icon{
+    height: 70px;
+    background-image: url(../img/d.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    border-radius: 100%;
+    /* margin: auto; */
+    align-content: space-between;
+}
+.efficient_icon{
+    height: 70px;
+    background-image: url(../img/ok.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    border-radius: 100%;
+    /* margin: auto; */
+    align-content: space-between;
+}
+/* ============================================= PRODUCT PAGE =============================== */
+.product_page{
+    height: fit-content;
+    /* background-color: #000; */
+    padding: 0% 10%;
+    margin-top: 15%;
+}
+@media only screen and (max-width: 576px) {
+    .product_page{
+        padding: 0%;
+    }
+}
+.product{
+    height: fit-content;
+    /* background-color: #F5F5F5; */
+}
+.product_img1{
+    margin-top: -5%;
+    height: 40vh;
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+
+}
+@media only screen and (max-width: 576px) {
+    .product_img1{
+        margin-bottom: -5%;
+        margin-top: 0%;
+    }
+}
+.product_img2{
+    margin-top: 2%;
+    height: 30vh;
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+
+}
+@media only screen and (max-width: 576px) {
+    .product_img2{
+        margin-top: 10%;
+        height: 40vh;
+    
+    }
+}
+.product_img3{
+    margin-top: 5%;
+    height: 30vh;
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 0vh; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+
+}
+@media only screen and (max-width: 576px) {
+    .product_img3{
+        margin-top: 5%;
+        height: 40vh;
+    
+    }
+}
+.product_img4{
+    margin-top: -12%;
+    height: 40vh;
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 0vh; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+
+}
+@media only screen and (max-width: 576px) {
+    .product_img4{
+        margin-top: 5%;
+    
+    }
+}
+.product_img5{
+    margin-top: 2%;
+    height: 30vh;
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 0vh; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+
+}
+@media only screen and (max-width: 576px) {
+    .product_img5{
+        margin-top: 5%;
+        height: 40vh;
+    
+    }
+}
+.product_img6{
+    margin-top: 2%;
+    height: 30vh;
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 0vh; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+
+}
+@media only screen and (max-width: 576px) {
+    .product_img6{
+        margin-top: 5%;
+        height: 40vh;
+    
+    }
+}
+.product_text{
+    height: fit-content;
+    padding: 2% 15%;
+
+}
+@media only screen and (max-width: 576px) {
+    .product_text{
+        padding: 0% 7%;
+        margin-top: -380%;
+        height: 40vh;
+    
+    }
+}
+.product_page a{
+    text-decoration: none;
+}
+/* =================================== SHOP STYLE =============================== */
+.shop_page{
+    height: fit-content;
+    /* margin-top: 15%;  */
+    margin: 15% 15%;
+}
+@media only screen and (max-width: 576px) {
+    .shop_page{
+        height: fit-content;
+        /* margin-top: 15%;  */
+        margin: 10% 0%;
+    }
+}
+.shop{
+    height: 60vh;
+    /* background-color: #000; */
+    margin-top: 5%;
+}
+.shop_text{
+    height: fit-content;
+    padding: 20% 15%;
+
+}
+@media only screen and (max-width: 576px) {
+    .shop_text{
+        padding: 50% 12% 0px;
+    
+    }
+}
+.shop_header{
+    font-size: 2em;
+    font-weight: bold;
+}
+.shop_page a{
+    text-decoration: none;
+}
+.button2{
+    background-color: rgb(252, 246, 239);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 2px;
+    color: #000;
+    font-size: 1rem;
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+}
+.shop_img{
+    background-image: url(../img/close-up-hairdresser-shop-instruments_23-2149319780.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    border-radius: 5px;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+}
