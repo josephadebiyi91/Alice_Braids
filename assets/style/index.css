@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 /* navs font */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+/* paragraph font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -18,6 +20,15 @@
     --drkcolor:#C68B59;
     --brandfont:'Abyssinica SIL', serif;
     --navfont: 'Raleway', sans-serif;
+    --pfont: 'Roboto Flex', sans-serif;
+}
+.title_text{
+    font-family: var(--brandfont);
+    text-transform: uppercase;
+}
+p{
+    font-family: var(--pfont);
+    text-align: justify;
 }
 .btn{
     width: fit-content;
@@ -34,6 +45,7 @@
 /* === NAVBAR STYLING ==== */
 #navbar{
     background-color:var(--litcolor);
+    height: 10vh !important;
 }
 .navbar-brand{
     font-family:var(--brandfont);
@@ -45,33 +57,19 @@
     color: var(--blkcolor);
 }
 
-@media only screen and (min-width: 991px) {
-    .ddflx{
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-    } 
-    .btn-b{
-        display: none !important;
-    }
- }
- @media only screen and (max-width: 991px) {
-    .btn-a{
-     display: none !important;
-    } 
-    .btn-b{
-        display: inline-block;
-    }
- }
-@media only screen and (max-width: 767px) {
-   .btn-a{
-    display: block !important;
-    width: 100%;
-   } 
-   .ddflx{
-    display: block;
-   } 
-   .btn-b{
-    display: none !important;
-   }
+/* === NAVBAR STYLING ==== */
+main{
+    height: 90vh;
+    background-color: var(--litcolor);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.landing_text{
+    /* background-color: var(--blkkcolor); */
+    height: 400px;
+    width: 40%;
+}
+
+
