@@ -57,7 +57,7 @@ p{
     color: var(--blkcolor);
 }
 
-/* === NAVBAR STYLING ==== */
+/* === LANDING PAGE STYLING ==== */
 main{
     height: 90vh;
     background-color: var(--litcolor);
@@ -71,5 +71,98 @@ main{
     height: 400px;
     width: 40%;
 }
+@media screen and (max-width: 767px) {
+    .landing_text{
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 991px) {
+    .title_text{
+        font-size: 28px;
+    }
+    .landing_text{
+        height: fit-content;
+    }
+}
 
+/* === SUB MAIN STYLING ==== */
+.d-flex{
+    width: 100%;
+    height: fit-content;
+}
+.experience{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.customer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.number{
+    font-size: 3rem;
+    padding: 0% 0px 0px 8px;
+    font-weight: lighter;
+    text-align: center;
+    border-left: 5px solid var(--drkcolor);
+}
+.inner_text{
+    font-size: small;
+    width: 15%;
+    background-color: #FFFFFF;
+    padding: 3% 0px 0px 5px;
+    font-weight: lighter;
+}
+/* =================================== SMALL SCREEN SIZE ==================== */
+@media screen and (max-width: 767px) {
+    .experience{
+        width: 100%;
+        height: fit-content !important;
+    }
+    .number{
+        font-size: 2rem !important;
+        padding: 0% 0px 0px 8px;
+        font-weight: lighter;
+        text-align: center;
+        border-left: 2px solid var(--drkcolor) !important;
+    }
+    .inner_text{
+        font-size: xx-small !important;
+        width: 30% !important;
+        background-color: #FFFFFF;
+        padding: 7% 0px 0px 5px !important;
+        font-weight: lighter;
+    }
+    .customer{
+        width: 100%;
+        height: fit-content !important;
+    }
+}
 
+/* =================================== MEDIUM SCREEN SIZE ==================== */
+@media screen and (max-width: 991px) {
+    .experience{
+        height: fit-content;
+        display: flex;
+    }
+    .number{
+        font-size: 2rem !important;
+        padding: 0% 0px 0px 8px;
+        font-weight: lighter;
+        text-align: center;
+        border-left: 2px solid var(--drkcolor) !important;
+    }
+    .inner_text{
+        font-size: xx-small !important;
+        width: 15% !important;
+        background-color: #FFFFFF;
+        padding: 12px 0px 0px 5px !important;
+        font-weight: lighter;
+    }
+    .customer{
+        width: 100%;
+        height: fit-content !important;
+    }
+}
