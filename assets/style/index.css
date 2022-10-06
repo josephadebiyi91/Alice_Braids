@@ -24,7 +24,8 @@
 }
 .title_text{
     font-family: var(--brandfont);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-size: 3rem;
 }
 p{
     font-family: var(--pfont);
@@ -49,6 +50,7 @@ p{
 }
 .navbar-brand{
     font-family:var(--brandfont);
+    border: 2px solid var(--blkkcolor);
 }
 .nav-link,form a{
     font-family: var(--navfont);
@@ -70,12 +72,24 @@ main{
     /* background-color: var(--blkkcolor); */
     height: 400px;
     width: 40%;
+    padding: 5% 0px;
 }
+/* .btn{
+    margin: 20px 0%;
+} */
 @media screen and (max-width: 767px) {
     .landing_text{
         width: 100%;
         height: fit-content;
     }
+    .title_text{
+        font-size: 2.5rem !important;
+        border-bottom: 3px solid var(--drkcolor);
+        margin: 0px 0px 5% 0px !important;
+    }
+    /* .btn{
+        margin: 20px 29%;
+    } */
 }
 @media screen and (max-width: 991px) {
     .title_text{
@@ -88,7 +102,7 @@ main{
 
 /* === SUB MAIN STYLING ==== */
 .d-flex{
-    width: 100%;
+    width: 60%;
     height: fit-content;
 }
 .experience{
@@ -100,44 +114,57 @@ main{
     width: 100%;
     height: fit-content;
     display: flex;
+    margin-left: -25%;
+    /* background-color: #000000; */
 }
 .number{
-    font-size: 3rem;
-    padding: 0% 0px 0px 8px;
+    font-size: 30px;
+    height: 40px;
+    padding: 0% 0px 0px 5px;
     font-weight: lighter;
     text-align: center;
-    border-left: 5px solid var(--drkcolor);
+    border-left: 3px solid var(--drkcolor);
+    
+    
 }
 .inner_text{
-    font-size: small;
+    font-size: xx-small;
     width: 15%;
     background-color: #FFFFFF;
-    padding: 3% 0px 0px 5px;
+    /* padding: 0% 0px 0px 5px; */
+    margin: 2% 4px;
     font-weight: lighter;
 }
 /* =================================== SMALL SCREEN SIZE ==================== */
 @media screen and (max-width: 767px) {
+    .d-flex{
+        width: 100% !important;
+        height: fit-content;
+        justify-content: space-between !important;
+    }
     .experience{
         width: 100%;
         height: fit-content !important;
     }
     .number{
-        font-size: 2rem !important;
-        padding: 0% 0px 0px 8px;
+        height: fit-content;
+        font-size: 10px !important;
+        padding: 0% 0px 0px 8px !important;
         font-weight: lighter;
-        text-align: center;
+        text-align: center !important;
         border-left: 2px solid var(--drkcolor) !important;
     }
     .inner_text{
         font-size: xx-small !important;
-        width: 30% !important;
-        background-color: #FFFFFF;
-        padding: 7% 0px 0px 5px !important;
+        width: fit-content !important;
+        padding: 2% 0px 0px 5px !important;
         font-weight: lighter;
+        margin: 0px;
     }
     .customer{
         width: 100%;
         height: fit-content !important;
+        margin-left: 0%;
     }
 }
 
@@ -148,6 +175,7 @@ main{
         display: flex;
     }
     .number{
+        height: fit-content !important;
         font-size: 2rem !important;
         padding: 0% 0px 0px 8px;
         font-weight: lighter;
@@ -160,6 +188,7 @@ main{
         background-color: #FFFFFF;
         padding: 12px 0px 0px 5px !important;
         font-weight: lighter;
+        margin: 0px !important;
     }
     .customer{
         width: 100%;
