@@ -69,7 +69,7 @@ main{
 }
 
 .landing_text{
-    /* background-color: var(--blkkcolor); */
+    background-color: var(--blkkcolor);
     height: 400px;
     width: 40%;
     padding: 5% 0px;
