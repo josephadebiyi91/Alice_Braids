@@ -46,7 +46,7 @@ p{
 /* === NAVBAR STYLING ==== */
 #navbar{
     background-color:var(--litcolor);
-    height: 10vh !important;
+    /* height: 10vh !important; */
 }
 .navbar-brand{
     font-family:var(--brandfont);
@@ -62,30 +62,26 @@ p{
 /* === LANDING PAGE STYLING ==== */
 main{
     height: 90vh;
-    background-color: var(--litcolor);
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-
 .landing_text{
-    background-color: var(--blkkcolor);
     height: 400px;
     width: 40%;
     padding: 5% 0px;
+    margin-top: -5%;
 }
-/* .btn{
-    margin: 20px 0%;
-} */
 @media screen and (max-width: 767px) {
     .landing_text{
         width: 100%;
         height: fit-content;
+
     }
     .title_text{
         font-size: 2.5rem !important;
         border-bottom: 3px solid var(--drkcolor);
-        margin: 0px 0px 5% 0px !important;
+        margin: 0px 0px 15% 0px !important;
     }
     /* .btn{
         margin: 20px 29%;
@@ -131,7 +127,6 @@ main{
     font-size: xx-small;
     width: 15%;
     background-color: #FFFFFF;
-    /* padding: 0% 0px 0px 5px; */
     margin: 2% 4px;
     font-weight: lighter;
 }
@@ -141,6 +136,7 @@ main{
         width: 100% !important;
         height: fit-content;
         justify-content: space-between !important;
+        margin-top: 25% !important;
     }
     .experience{
         width: 100%;
