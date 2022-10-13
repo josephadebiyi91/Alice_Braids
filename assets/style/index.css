@@ -137,7 +137,7 @@ main{
 }
 .inner_text{
     font-size: xx-small;
-    width: 15%;
+    width: 20%;
     background-color: #FFFFFF;
     margin: 2% 4px;
     font-weight: lighter;
@@ -164,10 +164,10 @@ main{
     }
     .inner_text{
         font-size: xx-small !important;
-        width: fit-content !important;
-        padding: 2% 0px 0px 5px !important;
+        width: 50% !important;
+        padding: 1% 0px 0px 5px !important;
         font-weight: lighter;
-        margin: 0px;
+        margin: 0px !important;
     }
     .customer{
         width: 100%;
@@ -273,6 +273,10 @@ main{
         height: fit-content;
         margin-top: 25% !important;
     }
+    .about_text .hding{
+        font-size: x-large;
+    
+    }
     .about_img{
         height: fit-content;
         /* background-color: #000000; */
@@ -318,6 +322,9 @@ main{
         width: 100% !important;
         height: 450px;
     
+    }
+    .product_page_top .hding{
+        font-size: x-large;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -413,7 +420,7 @@ main{
 }
 @media only screen and (max-width: 991px) {
     .product_heading{
-        font-size: 25px;
+        font-size: x-large;
         font-weight: 600;
     }
 }
@@ -425,7 +432,6 @@ main{
 }
 .hair_text{
     height: 450px;
-    /* background-color: #C68B59; */
     padding: 15% 0px;
 }
 .hair_img{
@@ -438,8 +444,8 @@ main{
 }
 @media only screen and (max-width: 767px) {
     .hair_text .hding{
-        text-align: center;
-        font-size: 30px;
+        /* text-align: center; */
+        font-size: 25px;
         margin-bottom: 3%;
     }
 }
@@ -448,4 +454,9 @@ main{
         font-size: 25px;
         font-weight: 600;
     }
+}
+/* ========================================= TESTIMONY STYLE ============== */
+#testimony{
+    height: fit-content;
+    margin-top: 15%;
 }
