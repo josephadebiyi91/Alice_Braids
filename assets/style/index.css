@@ -82,7 +82,7 @@ main{
 }
 #landing_page{
     height: 95vh;
-    /* background-image: url(../img/b.jpg); */
+    background-image: url(../img/img4.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,16 +95,21 @@ main{
     width: 40%;
     padding: 5% 0px;
     margin-top: -5%;
+
 }
 @media screen and (max-width: 767px) {
     .landing_text{
         width: 100%;
         height: fit-content;
-
+        color: #FFF !important;
+    }
+    .number{
+        color: #FFF !important;
     }
     .title_text{
         font-size: 2.5rem !important;
         margin: 0px 0px 5% 0px !important;
+        color: #FFF !important;
     }
 }
 @media screen and (max-width: 991px) {
@@ -131,7 +136,6 @@ main{
     height: fit-content;
     display: flex;
     margin-left: -25%;
-    /* background-color: #000000; */
 }
 .number{
     font-size: 30px;
@@ -146,7 +150,6 @@ main{
 .inner_text{
     font-size: xx-small;
     width: 15%;
-    background-color: #FFFFFF;
     margin: 2% 4px;
     font-weight: lighter;
 }
@@ -201,7 +204,6 @@ main{
     .inner_text{
         font-size: xx-small !important;
         width: 15% !important;
-        background-color: #FFFFFF;
         padding: 12px 0px 0px 5px !important;
         font-weight: lighter;
         margin: 0px !important;
