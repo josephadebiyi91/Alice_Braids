@@ -530,6 +530,7 @@ main{
 #testimony{
     height: fit-content;
     margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .container_body{
@@ -666,7 +667,8 @@ main{
 /* ========================================= TESTIMONY STYLE ============== */
 #contact_page{
     height: fit-content;
-    margin-top: 15%;
+    margin-top: 25% !important;
+    margin-bottom: 15%;
 }
 .contact_page_top{
     height: fit-content;
