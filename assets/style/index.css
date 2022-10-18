@@ -82,7 +82,7 @@ main{
 }
 #landing_page{
     height: 95vh;
-    background-image: url(../img/img4.jpeg);
+    background-image: url(../img/img4.jpeg) !important;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,6 +100,7 @@ main{
 @media screen and (max-width: 767px) {
     .landing_text{
         width: 100%;
+        margin-top: -1% !important;
         height: fit-content;
         color: #FFF !important;
     }
@@ -179,6 +180,7 @@ main{
         padding: 1% 0px 0px 5px !important;
         font-weight: lighter;
         margin: 0px !important;
+        color: #FFF !important;
     }
     .customer{
         width: 100%;
