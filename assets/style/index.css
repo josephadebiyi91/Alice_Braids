@@ -727,3 +727,23 @@ footer a{
     text-decoration: none;
     text-align: center;
 }
+
+/* <!-- ========================== PRODUCT MODAL ============================== --> */
+#product_carousel_page{
+    height: 70vh;
+    background-color: #000000;
+}
+.display_box{
+    height: 50vh;
+    background-color: #b33131;
+}
+.down_box{
+    margin-top: 2% !important;
+    display: flex;
+    justify-content: space-around;
+}
+.small_img_box{
+    height: 15vh;
+    width: 20%;
+    background-color: #b4a6a6;
+}

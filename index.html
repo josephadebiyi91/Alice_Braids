@@ -54,9 +54,14 @@
                 </ul>
                 <form class="ddflx" role="search">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                      <li class="nav-item mx-2">
+                      <li class="nav-item ">
                         <a class="nav-link" href="#">
                           <i class="bi bi-person-circle"></i>
+                        </a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="#">
+                          <i class="bi bi-cart"></i>
                         </a>
                       </li>
                       <li class="nav-item mx-2">
@@ -185,7 +190,7 @@
           <div class="product_inner_text">
             <div class="product_heading mb-4">Walmart Academy All Over Print Backpack</div>
             <p class="pr-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque deserunt delectus</p>
-            <a href="#" class="btn px-4 py-2">READ MORE</a>
+            <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">READ MORE</a>
           </div>
           <div class="product_inner_img">
           </div>
@@ -194,7 +199,7 @@
         </div>
         <div class="product_img_text d-lg-none d-md-none d-sm-block">
           <div class="product_heading mb-4">Walmart Academy</div>
-          <a href="#" class="btn px-4 py-2">READ MORE</a>
+          <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
@@ -202,13 +207,13 @@
           <div class="product_inner_text  d-lg-block d-md-block d-sm-none">
             <div class="product_heading mb-4">Walmart Academy All Over Print Backpack</div>
             <p class="pr-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque deserunt delectus</p>
-            <a href="#" class="btn px-4 py-2">READ MORE</a>
+            <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
           </div>
           <div class="product_inner_img"></div>
         </div>
         <div class="product_img_text d-lg-none d-md-none d-sm-block">
           <div class="product_heading mb-4">Walmart Academy</div>
-          <a href="#" class="btn px-4 py-2">READ MORE</a>
+          <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
         </div>
       </div>
       <div class="col-12">
@@ -220,19 +225,13 @@
 
 
     <!-- ===================================== PRODUCT PAGE =================================== -->
-     <section class="row mx-0 px-lg-5 px-md-2 px-sm-1" id="product_page">
-      <div class="col-12">
-        <div class="product_page_top">
-          <h2 class="hding">TRENDING HAIR STYLE</h2>
-        <small style="width: 20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sit vitae dolor, magni  .</small>
-        </div>
-      </div>
+!
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="product_inner_content px-4">
           <div class="product_inner_text">
             <div class="product_heading mb-4">Walmart Academy All Over Print Backpack</div>
             <p class="pr-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque deserunt delectus</p>
-            <a href="#" class="btn px-4 py-2">READ MORE</a>
+            <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
           </div>
           <div class="product_inner_img">
           </div>
@@ -241,7 +240,7 @@
         </div>
         <div class="product_img_text d-lg-none d-md-none d-sm-block">
           <div class="product_heading mb-4">Walmart Academy</div>
-          <a href="#" class="btn px-4 py-2">READ MORE</a>
+          <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
@@ -249,13 +248,13 @@
           <div class="product_inner_text  d-lg-block d-md-block d-sm-none">
             <div class="product_heading mb-4">Walmart Academy All Over Print Backpack</div>
             <p class="pr-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque deserunt delectus</p>
-            <a href="#" class="btn px-4 py-2">READ MORE</a>
+            <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
           </div>
           <div class="product_inner_img"></div>
         </div>
         <div class="product_img_text d-lg-none d-md-none d-sm-block">
           <div class="product_heading mb-4">Walmart Academy</div>
-          <a href="#" class="btn px-4 py-2">READ MORE</a>
+          <a href="#" class="btn px-4 py-2"  type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</a>
         </div>
       </div>
       <div class="col-12">
@@ -505,6 +504,34 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary">DONE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========================== PRODUCT MODAL ============================== -->
+<div class="modal fade " id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog .modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="product_carousel_page">
+          <section class="row mx-0 ">
+            <div class="col-12">
+              <div class="display_box"></div>
+            </div>
+            <div class="col-12">
+              <div class="down_box">
+                <div class="small_img_box"></div>
+                <div class="small_img_box"></div>
+                <div class="small_img_box"></div>
+              </div>
+            </div>
+          </section>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">ADD CART</button>
       </div>
     </div>
   </div>
