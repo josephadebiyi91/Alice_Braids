@@ -313,7 +313,7 @@ main{
 /* ========================================= PRODUCT STYLE ============== */
 
 #product_page{
-    margin-top: 15%;
+    margin-top: 10%;
     height: fit-content;
 }
 .product_page_top{
@@ -747,3 +747,17 @@ footer a{
     width: 20%;
     background-color: #b4a6a6;
 }
+/* <!-- ========================== PRODUCT CAROUSEL ============================== --> */
+.carousel-indicators{
+    margin-bottom: -90% !important;
+}
+.carousel-indicators button{
+    height: 100px !important;
+    width: 50% !important;
+}
+@media screen and (max-width: 767px) {
+    .carousel-indicators{
+        margin-bottom: -125% !important;
+        
+    }
+  }
